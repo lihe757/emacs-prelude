@@ -39,7 +39,6 @@
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/"))
 (package-initialize)
-(package-refresh-contents)
 
 (defvar prelude-packages
   '(auctex clojure-mode coffee-mode deft full-ack gist groovy-mode haml-mode
