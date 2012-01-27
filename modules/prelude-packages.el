@@ -38,6 +38,10 @@
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
+; this is a workaround for a bug in emacs' http fetching, see
+; http://lists.gnu.org/archive/html/bug-gnu-emacs/2011-12/msg00196.html
+(setq url-http-attempt-keepalives nil)
+
 (defvar prelude-packages
   '(auctex clojure-mode coffee-mode deft full-ack gist groovy-mode haml-mode
            haskell-mode inf-ruby markdown-mode paredit projectile
