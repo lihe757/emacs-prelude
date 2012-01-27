@@ -36,12 +36,14 @@
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives
+             '("tromey" . "http://tromey.com/elpa/")
 (package-initialize)
 
 (defvar prelude-packages
   '(auctex clojure-mode coffee-mode deft full-ack gist groovy-mode haml-mode
            haskell-mode inf-ruby markdown-mode paredit projectile
-           python sass-mode rainbow-mode scss-mode solarized-theme
+           python sass-mode rainbow-mode rinari scss-mode solarized-theme
            yaml-mode yari zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
