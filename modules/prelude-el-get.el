@@ -10,13 +10,21 @@
 
 (setq el-get-sources
       '(el-get
-        inversion
+	(:name inversion :type http :url "http://www.gnufans.net/~deego/emacspub/site-lisp/inversion.el" :features inversion)
+	auctex
         auto-complete
         auto-complete-clang
         auto-complete-ruby
         auto-complete-yasnippet
         cmake-mode
         edit-server
+        clojure-mode
+        coffee-mode 
+        deft
+        full-ack
+	haml-mode
+        haskell-mode
+        inf-ruby
         gist
         google-c-style
         keywiz
@@ -29,11 +37,20 @@
         org-html5presentation
         org-website
         prolog-el
+        paredit projectile
+        python
+        sass-mode
+        rainbow-mode
+        scss-mode
+        ruby-mode
+        rinari
         smart-tab
         smex
         smooth-scrolling
         sudo-save
         wikipedia-mode
+        yaml-mode
+        yari
         (:name magit
                :after (lambda ()
                         (global-set-key (kbd "C-x g") 'magit-status)))
