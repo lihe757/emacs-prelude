@@ -103,7 +103,8 @@
   (prelude-turn-on-abbrev)
   (prelude-add-watchwords)
   ;; keep the whitespace decent all the time
-  (add-hook 'before-save-hook 'whitespace-cleanup nil t))
+;  (add-hook 'before-save-hook 'whitespace-cleanup nil t)
+  )
 
 ;; in Emacs 24 programming major modes generally derive
 ;; from a common mode named prog-mode
