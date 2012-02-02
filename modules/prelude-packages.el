@@ -45,10 +45,7 @@
 (setq url-http-attempt-keepalives nil)
 
 (defvar prelude-packages
-  '(auctex clojure-mode coffee-mode deft full-ack gist groovy-mode haml-mode
-           haskell-mode inf-ruby markdown-mode paredit projectile
-           python sass-mode rainbow-mode rinari scss-mode solarized-theme
-           yaml-mode yari zenburn-theme)
+  '(zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()

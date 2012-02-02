@@ -10,6 +10,7 @@
 
 (setq el-get-sources
       '(el-get
+        inversion
         auto-complete
         auto-complete-clang
         auto-complete-ruby
@@ -27,7 +28,6 @@
         org-mode
         org-html5presentation
         org-website
-        org2blog
         prolog-el
         smart-tab
         smex
