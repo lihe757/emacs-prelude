@@ -11,7 +11,6 @@
 (setq el-get-sources
       '(el-get
 	cedet
-	auctex
         auto-complete
         auto-complete-clang
         auto-complete-ruby

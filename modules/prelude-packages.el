@@ -45,7 +45,7 @@
 (setq url-http-attempt-keepalives nil)
 
 (defvar prelude-packages
-  '(zenburn-theme)
+  '(auctex zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()
