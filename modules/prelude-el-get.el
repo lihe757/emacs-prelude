@@ -38,7 +38,6 @@
         paredit
         python
         scala-mode
-        rainbow-mode
         scss-mode
         ruby-mode
         rspec-mode
