@@ -38,7 +38,6 @@
         prolog-el
         paredit
         python
-        sass-mode
         scala-mode
         rainbow-mode
         scss-mode
@@ -52,6 +51,7 @@
         wikipedia-mode
         yaml-mode
         yari
+	zenburn-theme
         (:name magit
                :after (lambda ()
                         (global-set-key (kbd "C-x g") 'magit-status)))
