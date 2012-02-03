@@ -36,12 +36,14 @@
         org-html5presentation
         org-website
         prolog-el
-        paredit projectile
+        paredit
         python
         sass-mode
+        scala-mode
         rainbow-mode
         scss-mode
         ruby-mode
+        rspec-mode
         rinari
         smart-tab
         smex
