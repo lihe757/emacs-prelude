@@ -10,7 +10,7 @@
 
 (setq el-get-sources
       '(el-get
-	(:name inversion :type http :url "http://www.gnufans.net/~deego/emacspub/site-lisp/inversion.el" :features inversion)
+	cedet
 	auctex
         auto-complete
         auto-complete-clang
