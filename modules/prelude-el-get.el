@@ -14,7 +14,6 @@
         auto-complete
         auto-complete-clang
         auto-complete-ruby
-        auto-complete-yasnippet
         cmake-mode
         edit-server
         clojure-mode
