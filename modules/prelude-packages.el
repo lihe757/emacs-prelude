@@ -45,7 +45,7 @@
 (setq url-http-attempt-keepalives nil)
 
 (defvar prelude-packages
-  '(auctex projectile sass-mode)
+  '(auctex projectile sass-mode zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()

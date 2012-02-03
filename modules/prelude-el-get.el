@@ -49,7 +49,6 @@
         wikipedia-mode
         yaml-mode
         yari
-	zenburn-theme
         (:name magit
                :after (lambda ()
                         (global-set-key (kbd "C-x g") 'magit-status)))
