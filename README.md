@@ -1,3 +1,7 @@
+#My configuration
+Required other softwares:
+1)brew install aspell --lang=en
+
 # Emacs Prelude
 
 ## Prelude
