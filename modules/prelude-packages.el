@@ -35,7 +35,9 @@
 
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+             '("tromey" . "http://tromey.com/elpa/"))
 (package-initialize)
 
 ; this is a workaround for a bug in emacs' http fetching, see
@@ -43,10 +45,7 @@
 (setq url-http-attempt-keepalives nil)
 
 (defvar prelude-packages
-  '(auctex clojure-mode coffee-mode deft full-ack gist groovy-mode haml-mode
-           haskell-mode inf-ruby markdown-mode paredit projectile
-           python sass-mode rainbow-mode scss-mode solarized-theme
-           yaml-mode yari zenburn-theme)
+  '(auctex projectile rainbow-mode zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()

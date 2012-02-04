@@ -9,7 +9,47 @@
     (eval-print-last-sexp)))
 
 (setq el-get-sources
-      '((:name magit
+      '(el-get
+	cedet
+        auto-complete
+        auto-complete-clang
+        auto-complete-ruby
+        cmake-mode
+        edit-server
+        clojure-mode
+        coffee-mode 
+        deft
+        full-ack
+	haml-mode
+        haskell-mode
+        inf-ruby
+        gist
+        google-c-style
+        keywiz
+        lua-mode
+        magithub
+        markdown-mode
+        matlab-mode
+        mustache-mode
+        org-mode
+        org-html5presentation
+        org-website
+        prolog-el
+        paredit
+        python
+        scala-mode
+        scss-mode
+        ruby-mode
+        rspec-mode
+        rinari
+        smart-tab
+        smex
+        smooth-scrolling
+        sudo-save
+        wikipedia-mode
+        yaml-mode
+        yari
+        (:name magit
                :after (lambda ()
                         (global-set-key (kbd "C-x g") 'magit-status)))
         (:name yasnippet
