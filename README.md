@@ -1,6 +1,15 @@
 #My configuration
 Required other softwares:
-1)brew install aspell --lang=en
+
+-  install aspell 
+```
+$ brew install aspell --lang=en
+```
+-  install aspell 
+```
+$ brew install bzr
+```
+
 
 # Emacs Prelude
 
